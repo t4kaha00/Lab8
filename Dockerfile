@@ -22,5 +22,5 @@ WORKDIR /todo-api
 RUN mkdir /data
 # Set the default command to execute    
 # when creating a new container
-CMD python api.py
+CMD python app.py
 
