@@ -2,7 +2,7 @@
 FROM python:2.7
 
 # File Author / Maintainer
-MAINTAINER Baz
+MAINTAINER Harjit
 
 # Update the sources list
 RUN apt-get update

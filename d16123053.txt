@@ -1,0 +1,12 @@
+retrieve all tasks : curl http://172.17.0.2:8080/tasks
+
+retrive one tasks : curl  http://172.17.0.2:8080/tasks/id
+
+add a task :
+curl -H "Content-Type: application/json" -X POST -d '{"title":"buy stamps","description":"at the GPO"}' http://172.17.0.2:8080/tasks
+
+delete a task :
+curl -H "Content-Type: application/json" -X DELETE http://172.17.0.2:8080/tasks/id
+
+update a task :
+curl -H "Content-Type: application/json" -X PUT -d '{"done":true}' http://172.17.0.2:8080/tasks/id
