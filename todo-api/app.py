@@ -8,14 +8,14 @@ app = Flask(__name__)
 tasks = [
     {
         'id': 1,
-        'title': u'Buy groceries',
-        'description': u'Milk, Cheese, Pizza, Fruit, Tylenol', 
+        'title': 'Mobile Software Assignment',
+        'description': 'Make an android application', 
         'done': False
     },
     {
         'id': 2,
-        'title': u'Learn Python',
-        'description': u'Need to find a good Python tutorial on the web', 
+        'title': 'Database Assignment',
+        'description': 'Design a databse with given schema', 
         'done': False
     }
 ]
